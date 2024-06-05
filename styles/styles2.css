@@ -1,0 +1,37 @@
+@keyframes play {
+    0% {
+        transform: translateX(-2000px);
+    }
+    /* 10% {
+        transform: translateX(1000px);
+    } */
+    30% {
+        transform: translateX(-200px);
+    }
+    45% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(25px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    90% {
+        transform: translateX(-25px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+body {
+    position: relative;
+    animation: play 3s ease-in-out;
+}
+form {
+    position: absolute;
+    width: auto; height: auto;
+    margin-top: 45%;
+    margin-left: 90%;
+}
